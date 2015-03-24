@@ -19,5 +19,6 @@ namespace CIPG_FrameWork
         public static string Password_TextBox = Settings.Default.Password_TextBox;
         public static string LoginButton = Settings.Default.LoginButton;
         public static string Special_Xters = Settings.Default.Special_Characters;
+        
     }
 }

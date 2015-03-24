@@ -1,6 +1,7 @@
 ﻿using System;
 using CIPG_FrameWork;
 using NUnit.Framework;
+using TestCases.Properties;
 
 namespace TestCases
 {
@@ -10,7 +11,7 @@ namespace TestCases
         [Test]
         public void Can_GoTo_01_URL()
         {
-            Browser.setup("http://62.173.32.45/CIPGHarmonized/Login.aspx");
+            Browser.setup(Settings.Default.Url);
             CIPG.Login_test();
         }
        

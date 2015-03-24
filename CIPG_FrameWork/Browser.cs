@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support;
+using CIPG_FrameWork.Properties;
 
 namespace CIPG_FrameWork
 {
@@ -19,7 +20,7 @@ namespace CIPG_FrameWork
 
         public static void LogOut()
         {
-            driver.FindElement(By.LinkText("Logout")).Click();
+            driver.FindElement(By.LinkText(Settings.Default.Logout_Link)).Click();
         }
     }
 }

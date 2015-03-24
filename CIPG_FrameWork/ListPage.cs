@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support;
+using CIPG_FrameWork.Properties;
 
 namespace CIPG_FrameWork
 {
@@ -22,7 +23,7 @@ namespace CIPG_FrameWork
 
        private void PerformTest()
        {
-           driver.FindElement(By.XPath("//div[@id='waxnav']/ul/li[2]/div/a/span")).Click();
+           driver.FindElement(By.XPath(Settings.Default.List_Page)).Click();
        }
       
         public static void CheckLinks()
@@ -32,12 +33,12 @@ namespace CIPG_FrameWork
 
         private void PerformTest2()
         {
-            driver.FindElement(By.LinkText("View Branches")).Click();
-            driver.FindElement(By.LinkText("View Fees")).Click();
-            driver.FindElement(By.LinkText("View Merchants")).Click();
-            driver.FindElement(By.LinkText("View Regions")).Click();
-            driver.FindElement(By.LinkText("View User Roles")).Click();
-            driver.FindElement(By.LinkText("View Users")).Click();
+            driver.FindElement(By.LinkText(Settings.Default.View_Branches)).Click();
+            driver.FindElement(By.LinkText(Settings.Default.View_Fees)).Click();
+            driver.FindElement(By.LinkText(Settings.Default.View_Merchants)).Click();
+            driver.FindElement(By.LinkText(Settings.Default.View_Regions)).Click();
+            driver.FindElement(By.LinkText(Settings.Default.View_User_Roles)).Click();
+            driver.FindElement(By.LinkText(Settings.Default.View_Users)).Click();
         }
         
 

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support;
+using CIPG_FrameWork.Properties;
 
 namespace CIPG_FrameWork
 {
@@ -12,7 +13,7 @@ namespace CIPG_FrameWork
     {
         public static void Click()
         {
-            Browser.driver.FindElement(By.XPath("//div[@id='waxnav']/ul/li[6]/div/a/span")).Click();
+            Browser.driver.FindElement(By.XPath(Settings.Default.Help_Page)).Click();
         }
     }
 }

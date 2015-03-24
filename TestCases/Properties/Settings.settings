@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TestCases.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://62.173.32.45/CIPGHarmonized/Login.aspx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,87 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CIPG_FrameWork.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">admin</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">password</Value>
+    </Setting>
+    <Setting Name="wrong_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12345</Value>
+    </Setting>
+    <Setting Name="wrong_username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ertyu</Value>
+    </Setting>
+    <Setting Name="empty_username" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="empty_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Username_TextBox" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Login1_UserName</Value>
+    </Setting>
+    <Setting Name="Password_TextBox" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Login1_Password</Value>
+    </Setting>
+    <Setting Name="LoginButton" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Login1_LoginButton</Value>
+    </Setting>
+    <Setting Name="Special_Characters" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"@@****</Value>
+    </Setting>
+    <Setting Name="Approval_Page" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//div[@id='waxnav']/ul/li[3]/div/a/span</Value>
+    </Setting>
+    <Setting Name="Help_Page" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//div[@id='waxnav']/ul/li[6]/div/a/span</Value>
+    </Setting>
+    <Setting Name="List_Page" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//div[@id='waxnav']/ul/li[2]/div/a/span</Value>
+    </Setting>
+    <Setting Name="New_Page" Type="System.String" Scope="User">
+      <Value Profile="(Default)">a &gt; span</Value>
+    </Setting>
+    <Setting Name="Reports_Page" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//div[@id='waxnav']/ul/li[5]/div/a/span</Value>
+    </Setting>
+    <Setting Name="Logout_Link" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Logout</Value>
+    </Setting>
+    <Setting Name="View_Branches" Type="System.String" Scope="User">
+      <Value Profile="(Default)">View Branches</Value>
+    </Setting>
+    <Setting Name="View_Fees" Type="System.String" Scope="User">
+      <Value Profile="(Default)">View Fees</Value>
+    </Setting>
+    <Setting Name="View_Merchants" Type="System.String" Scope="User">
+      <Value Profile="(Default)">View Merchants</Value>
+    </Setting>
+    <Setting Name="View_Regions" Type="System.String" Scope="User">
+      <Value Profile="(Default)">View Regions</Value>
+    </Setting>
+    <Setting Name="View_User_Roles" Type="System.String" Scope="User">
+      <Value Profile="(Default)">View User Roles</Value>
+    </Setting>
+    <Setting Name="View_Users" Type="System.String" Scope="User">
+      <Value Profile="(Default)">View Users</Value>
+    </Setting>
+    <Setting Name="Bank_Report" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Bank Transaction Report</Value>
+    </Setting>
+    <Setting Name="Audit_Trail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Audit Trail</Value>
+    </Setting>
+    <Setting Name="Settlement_Report" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Settlement Report</Value>
+    </Setting>
+    <Setting Name="Product_Split_Report" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Product Split Report</Value>
+    </Setting>
+    <Setting Name="Order_Settlement_Report" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Order Settlement Report</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
